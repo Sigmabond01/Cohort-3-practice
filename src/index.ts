@@ -6,8 +6,8 @@ console.log(x);
 //14.1
 function greet(user: {
     //takes argument of an input which is an object
-    name: string,
-    age: number
+    name: string;
+    age: number;
 }) {
     console.log("Hello " + user.name);
 }
@@ -19,3 +19,14 @@ let user = {
 //this happens implicitly
 
 greet(user);
+
+//14.2
+//these are primitive types (bool, num, etc..)
+function isEven(num: number): boolean {
+    if(num % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+

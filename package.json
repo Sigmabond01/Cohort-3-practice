@@ -13,12 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Sigmabond01/Cohort-3-practice/issues"
   },
   "homepage": "https://github.com/Sigmabond01/Cohort-3-practice#readme",
   "dependencies": {
-    "typescript": "^5.9.2"
+    "express": "^5.1.0",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
   }
 }
