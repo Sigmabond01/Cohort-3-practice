@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/Sigmabond01/Cohort-3-practice#readme",
   "dependencies": {
+    "@types/ws": "^8.18.1",
     "express": "^5.1.0",
+    "http": "^0.0.1-security",
     "typescript": "^5.9.2",
+    "ws": "^8.18.3",
     "zod": "^4.1.5"
   },
   "devDependencies": {

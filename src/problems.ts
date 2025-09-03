@@ -1,6 +1,6 @@
 //to run this file
 //run "npx tsc -b"
-//then "node problems.js"
+//then "node dist/problems.js"
 
 //14.1
 function greet(firstName: string | number) { 
